@@ -1,0 +1,6 @@
+{
+  "name": "Savia - Cotizador para Intermediarios",
+  "description": "Landing oficial y Aviso de Privacidad de Savia (Hefesoft S.A.S.). Plataforma para intermediarios de seguros con cumplimiento de la Política de Uso Limitado de Google API Services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
