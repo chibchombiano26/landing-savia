@@ -13,7 +13,7 @@ export default function App() {
       if (
         hash.includes('privacidad') ||
         hash.includes('privacy') ||
-        path.includes('privacidad')
+        path.includes('privacidad') || path.includes('privacy')
       ) {
         return 'privacidad';
       }
@@ -39,9 +39,7 @@ export default function App() {
   }, []);
 
   const navigateToPrivacy = () => {
-    setCurrentPage('privacidad');
-    window.location.hash = 'aviso-de-privacidad';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.location.assign('/privacy/');
   };
 
   const navigateToLanding = () => {

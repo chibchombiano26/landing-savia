@@ -255,22 +255,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               </div>
               <ul className="space-y-2 text-xs">
                 <li>
-                  <button
+                  <a
                     id="footer-policy-page-btn"
-                    onClick={onNavigateToPrivacy}
+                    href="/privacy/"
                     className="text-[#10B981] hover:underline font-bold text-left cursor-pointer flex items-center gap-1"
                   >
                     <span>Política de Privacidad y Tratamiento de Datos</span>
                     <ArrowRight className="w-3 h-3" />
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={onNavigateToPrivacy}
-                    className="hover:text-white transition-colors cursor-pointer"
-                  >
-                    Términos y Condiciones
-                  </button>
+                  </a>
                 </li>
                 <li>
                   <button
